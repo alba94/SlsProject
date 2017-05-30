@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SlsProject</string>
+
+    <string name="login_btn">Kyçu</string>
+    <string name="register_btn">Regjistrohu</string>
+
+    <string name="ruaj_btn">Ruaj të dhënat</string>
+    <string name="login_emer">Emër</string>
+    <string name="login_mbiemri">Mbiemër</string>
+    <string name="mosha">Mosha</string>
+    <string name="reg_email">Email</string>
+    <string name="spin_male">Mashkull</string>
+    <string name="spin_female">Femër</string>
+    <string name="fragment1">Regjistrohu</string>
+    <string name="fragment2">Kycu</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_body">Selektoni një pjesë të trupit për të cilën \n doni të merrni informacion</string>
+    <string name="vizite">Krijo një kërkesë për vizitë</string>
+    <string name="spinner_prior">Prioriteti</string>
+    <string name="problem">Përshkrimi i problemit</string>
+    <string name="send">Dërgo</string>
+    <string name="email">emermbiemer@hotmail.com</string>
+    <string name="fjalekalim">Fjalëkalim</string>
+    <string name="fjalekalim1">Përsërit Fjalëkalim</string>
+    <string name="ose">ose</string>
+    <string name="fb">Kyçu me Facebook</string>
+    <string name="google">Kyçu me Google</string>
+    <string name="fjali">Keni harruar fjalëkalimin?</string>
+    <string name="modifiko_profil">Modifiko Profilin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="analiza">Përgjigje Analizash</string>
+    <string name="mjeket">Mjekët</string>
+    <string name="kalendari">Kalendari i Mjekëve</string>
+    <string name="sherbime">Shërbime</string>
+
+    <string name="menu_send">Send</string>
+    <string name="menu_ring">Ring</string>
+    <string name="menu_phone">Phone</string>
+    <string name="menu_rreth_nesh">Rreth nesh</string>
+    <string name="menu_kontakt">Kontakt</string>
+
+
+</resources>

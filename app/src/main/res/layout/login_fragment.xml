@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_login"
+    android:paddingLeft="@dimen/activity_horizontal_login"
+    android:paddingRight="@dimen/activity_horizontal_login"
+    tools:context="com.example.albal.slsproject.Fragments.Login">
+
+    <EditText
+        android:id="@+id/lgn_emri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/login_emer"
+        android:inputType="textPersonName"
+        android:paddingBottom="20sp"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/lgn_mbiemri"
+        style="@style/EditText"
+        android:hint="@string/login_mbiemri"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/ose"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button_fb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/facebook_border"
+        android:text="@string/fb"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/button_google"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/google_border"
+        android:text="@string/google"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/fjale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/fjali"
+        android:textColor="@color/colorRed"
+        android:textSize="15sp" />
+
+</LinearLayout>
+

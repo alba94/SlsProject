@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_phone"
+        android:orderInCategory="1"
+        android:title="@string/menu_ring"
+        android:icon="@drawable/ic_phone_in_talk_black_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="0"
+        android:title="@string/menu_phone"
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+        app:showAsAction="ifRoom" />
+</menu>

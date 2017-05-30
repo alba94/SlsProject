@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.albal.slsproject.Formular">
+
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/layout_vizite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+            android:gravity="center"
+            android:text="@string/vizite"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/txt_emri"
+            style="@style/EditTextProfile"
+            android:hint="@string/login_emer"
+            android:inputType="textPersonName" />
+
+        <EditText
+            style="@style/EditTextProfile"
+            android:layout_marginTop="10dp"
+            android:hint="@string/login_mbiemri"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/txt_prioriteti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:spinnerMode="dialog" />
+
+        <EditText
+            android:id="@+id/txt_fjalekalim"
+            style="@style/EditTextProfile"
+            android:layout_marginTop="10dp"
+            android:hint="@string/mosha"
+            android:inputType="number" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="false"
+                android:gravity="center"
+                android:text="@string/spin_male" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="false"
+                android:gravity="center"
+                android:text="@string/spin_female" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/txt_pershkrim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorGrey"
+            android:gravity="top"
+            android:hint="@string/problem"
+            android:inputType="textMultiLine"
+            android:lines="7"
+            android:minLines="7"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="7sp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_dergo"
+        style="@style/ButtonYellow"
+        android:layout_alignParentBottom="true"
+        android:text="@string/send" />
+
+</RelativeLayout>

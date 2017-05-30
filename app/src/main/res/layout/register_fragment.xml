@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_login"
+    android:paddingLeft="@dimen/activity_horizontal_login"
+    android:paddingRight="@dimen/activity_horizontal_login"
+    tools:context="com.example.albal.slsproject.Fragments.Login">
+
+    <EditText
+        android:id="@+id/txt_emri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/login_emer"
+        android:inputType="textPersonName"
+        android:paddingBottom="20sp"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/txt_mbiemri"
+        style="@style/EditText"
+        android:hint="@string/login_mbiemri"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_email"
+        style="@style/EditText"
+        android:hint="@string/reg_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txt_fjalekalim"
+        style="@style/EditText"
+        android:hint="@string/fjalekalim"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txt_fjalekalim1"
+        style="@style/EditText"
+        android:hint="@string/fjalekalim1"
+        android:inputType="textPassword" />
+
+</LinearLayout>
